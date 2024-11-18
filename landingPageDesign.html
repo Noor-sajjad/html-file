@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+       
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 10px;
+        justify-content: end;
+        font-size: large;
+    
+    }
+    .container > a{
+  margin: 10px;
+  text-decoration: none;
+ 
+}
+.container a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.log{
+    color: blue;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: start;
+    margin-left: 90px;
+    font-weight: bold;
+    
+
+
+   
+}
+.log box{
+    
+    padding: 20px;
+    
+
+}
+  img{
+    float: right;
+    width: 700px;
+    padding: 80px;
+  }
+.parent{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+       margin: 100px;
+       
+}
+h4{
+    color: blue;
+    padding: 20px;
+}
+h1{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 60px;
+}
+.btn{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+   gap: 20px;
+   padding: 20px 0;
+    
+}
+.btn button{
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition-property: all 0.3 ease;
+}
+.btn button:hover{
+    background-color: blue;
+    color: white;
+}
+@media (max-width:600px){
+    .btn button:hover{
+    background-color: rgb(9, 255, 0);
+    color: red;
+}
+.btn button{
+    width: 100%;
+    justify-content: center;
+}
+}
+    </style>
+
+</head>
+
+<body>
+   
+    
+    <div class="container">
+        
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Shop</a>
+        
+    </div>
+    <div class="log">
+        <span class="box">■</span>
+        <p class="logo">L<span style="color: black;" >OG</span>-O</p></div>
+        
+    <img src="download (2).jfif">
+    <div class="parent">
+    
+    
+    <h4>Lorem Lpsum</h4>
+    <h1>Landing Page Design</h1>
+    <div class="btn">
+    <button>sign up</button>
+    <button>show more</button></div>
+</div>
+
+</body>
+</html>
